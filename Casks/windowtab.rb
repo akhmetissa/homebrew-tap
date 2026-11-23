@@ -1,6 +1,6 @@
 cask "windowtab" do
-  version "1.0.1"
-  sha256 "909e7eae820eb03f7eb8626410e532657770bf15fff4b15eba652a16bbceb4f5"
+  version "1.0.2"
+  sha256 "965a44b6116dddcf2d387ce6322d9230f5673b49a00f928206094856894c1e43"
 
   url "https://github.com/akhmetissa/homebrew-tap/releases/download/v#{version}/WindowTab-#{version}.zip"
   name "WindowTab"
