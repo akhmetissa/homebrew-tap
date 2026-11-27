@@ -27,12 +27,16 @@ Then hold Cmd and press Tab. Settings are in the menu bar icon.
 
 ## Update
 
+From 1.0.4 on, WindowTab updates itself: it checks this tap at launch and once a day, runs
+`brew upgrade` when there's a new version and restarts in about a second. The check reads the
+cask's version and sends nothing else. Turn it off with **Update Automatically** in its menu.
+
+To update by hand, or to get from an earlier version to 1.0.4:
+
 ```sh
 brew upgrade --cask windowtab
 open -a WindowTab
 ```
-
-macOS may ask for **Open Anyway** again after an update.
 
 ## Uninstall
 
